@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google remake</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+
+        a:link {
+            text-decoration: none;
+
+        }
+
+        .right a {
+            color: rgba(0, 0, 0, 0.87);
+            font-size: 13px;
+            font-family: arial, sans-serif;
+        }
+
+        ul,
+        li {
+            display: inline-block;
+            padding-right: 10px;
+        }
+
+        .left a {
+            color: #000000;
+            font-size: 13px;
+            font-family: arial, sans-serif;
+        }
+
+        .right,
+        li {
+            float: right;
+            display: inline-block;
+            padding: 20px;
+
+        }
+
+        .apps {
+            opacity: 0.6;
+            padding-top: 5px;
+        }
+
+        .left li,
+            {
+            float: left;
+            display: inline-block;
+
+            padding-left: 20px;
+            margin-top: 20px;
+        }
+
+        .left {
+            padding-left: 30px;
+            padding-top: 30px;
+        }
+
+      
+
+        .google {
+            display: block;
+            margin-left: auto;
+             margin-right: auto;
+             padding-left: 170px;
+             
+            
+            /*margin-right: auto;
+            padding-top: 100px;
+            margin-top: -100px;*/
+ }
+     @media screen and (max-width: 388px) {
+  .google {
+    display: block;
+            margin-left: auto;
+             margin-right: auto;
+             padding-left: 70px;
+  }
+}   
+
+        .text_form {
+            padding-bottom: 5px;
+            border-radius: 20px;
+            border-width: 0.3px;
+            box-shadow: 0 0 5px #888;
+            width: 550px;
+            height: 40px;
+            margin-bottom: 20px;
+            border: none;
+            font-size: 16px;
+            font-family: arial, sans-serif;
+        }
+
+        .search {
+            font-size: 16px;
+            border-radius: 5px;
+            background-color: #f1f1f1;
+            font-weight: 10;
+            margin-right: 5px;
+            padding: 10px;
+            font-family: arial, sans-serif;
+           
+
+        }
+
+        input[type=submit] {
+            width: 10em;
+            height: 3em;
+            border: none;
+        }
+
+        .section {
+
+            padding-bottom: 100px;
+
+        }
+/*#searcher {
+     display: block;
+            margin-left: 0 auto;
+             margin-right: 0 auto;
+             padding-right: 40%;
+}*/
+        .form {
+text-align: center;
+            margin-top: -100px;
+              padding-top: 200px;
+            padding-bottom: -300px;
+             display: block;
+           /* margin-left: 0 auto;
+             margin-right: 0 auto;*/
+             padding-left: 30px;
+        }
+
+        .bottom1 {
+            background-color: #f1f1f1;
+            padding: 30px;
+
+        }
+
+        .bottom2 {
+            /*position: relative;*/
+            background-color: #f1f1f1;
+            margin-top: 10px;
+            padding: 40px;
+        }
+
+        .advert {
+            float: left;
+            margin-right: 10px;
+            padding-right: 100px;
+        }
+
+        .privacy {
+             float: right;
+            margin-right: 10px;
+            padding-right: 100px;
+
+
+        }
+
+        .foot {}
+
+        p {
+            border-bottom: 1px solid rgba(43, 21, 21, 0.2)
+        }
+        #footer {
+            margin-top: 200px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <nav>
+        <ol class="right list">
+            <a href="">
+                <ul>
+                    Gmail
+                </ul>
+            </a>
+            <a href="">
+                <ul>
+                    Images
+                </ul>
+            </a>
+            <a href="">
+                <ul><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJYwZVarEAk3tl8Ej_PmH5ZRMVMWXSLa_xfDC4MAFUkhh-Sq7C"
+                        alt="apps" width="20" class="apps">
+            </a>
+
+        </ol>
+        <ol class="left list">
+            </ul>
+
+            <a href="">
+                <ul>
+                    About
+                </ul>
+            </a>
+            <a href="">
+                <ul>
+                    Store
+                </ul>
+            </a>
+        </ol>
+    </nav>
+
+    <main class="section">
+
+        <a href=""><img
+                src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg"
+                width="380" class="google"></a>
+
+            <form class="form">
+                <input type="text" /*placeholder="Search Google or type URL"*/ class="text_form" />
+                <br />
+                <a href="">
+                    <input type="submit" name="google" value="Google Search" class="search" /></a>
+                <input type="submit" name="google" value="I'm Feeling Lucky" class="search" />
+            </form>
+       
+    </main>
+
+<div id="footer">
+    <div class="bottom2">
+        <p>UNITED KINGDOM</p>
+
+        <ul class="advert">
+            <li>How Stuff Works</li>
+            <li>Business</li>
+            <li>Advertising</li>
+         </ul>
+         
+    
+        <div class="foot" class="bottom2">
+            <ul class="privacy">
+                <li>Settings</li>
+                <li>Terms</li>
+                <li>Privacy</li>
+            </ul>
+        </div>
+        </div>
+</body>
+
+</html>
+
+
